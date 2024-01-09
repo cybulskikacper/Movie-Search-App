@@ -1,6 +1,8 @@
 import React from 'react'
 
-function MovieCard({ movie }) {
+function MovieCard(props) {
+	const movie = props.movie
+
 	return (
 		<>
 			<div className="card-list">

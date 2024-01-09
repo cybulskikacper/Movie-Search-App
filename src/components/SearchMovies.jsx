@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 import MovieCard from './MovieCard'
 
-function SearchMovies(props) {
+function SearchMovies() {
 	// states input query, movies
 	const [query, setQuery] = useState('')
 
